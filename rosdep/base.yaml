@@ -5935,7 +5935,9 @@ libqt5-opengl:
   opensuse: [libQt5OpenGL5]
   rhel: [qt5-qtbase]
   slackware: [qt5]
-  ubuntu: [libqt5opengl5]
+  ubuntu:
+    '*': [libqt5opengl5]
+    noble: [libqt5opengl5t64]
 libqt5-opengl-dev:
   arch: [qt5-base]
   debian: [libqt5opengl5-dev]
